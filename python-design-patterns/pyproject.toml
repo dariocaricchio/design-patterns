@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-design-patterns"
+version = "0.1.0"
+description = "Main design patterns with a small description and an example implementation."
+authors = ["Dario Caricchio <dariocaricchio@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "python_design_patterns"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
