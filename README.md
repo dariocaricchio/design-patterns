@@ -30,6 +30,9 @@ Here are the main design patterns in coding. For each of them, a small descripti
 - **Facade pattern** provides a simplified interface to a complex system.
 - **Null object pattern** represents the absence of an object. This can be useful for avoiding null pointer exceptions and for simplifying code.
 - **Flyweight pattern** minimizes memory usage by sharing objects that are identical or similar. This can be useful for implementing large sets of objects or for caching frequently used objects.
+- **Proxy pattern** provides a surrogate or placeholder for another object to control access to it. This can be used to control access to a resource, to provide a level of indirection, or to defer the creation of an object until it is actually needed.
+- **Delegate pattern** allows one object to delegate its responsibilities to another object. This can be used to decouple the two objects and to make the code more modular.
+- **Aggregation pattern** allows one object to be composed of other objects. This can be used to create more complex objects from simpler ones and to make the code more reusable. Essentially, it's like the Composite pattern, but children can outlive parents (the "part" is not owned by the "whole", it can exist independently of the whole; this means hte whole is not responsible for creating or destroying the part).
 
 # Behavioral pattern
 **Behavioral patterns** deal with the way objects communicate with each other. They help to make code more flexible and maintainable. Some of the most common behavioral patterns include:
